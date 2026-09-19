@@ -59,7 +59,7 @@
                   <div data-bind="with: user">
                     <div>
                       <img style="padding-top: 2px; max-height: 50px; clip-path: circle(23px at center); " data-bind="attr: {src: images[0].url}">
-                      <img id="profileswoop" style="margin-bottom: -54px; margin-left: -50px; position: absolute; filter: brightness(125%);" src="/img/swoopyarrow.jpg">      
+                      <img id="profileswoop" style="margin-bottom: -54px; margin-left: -50px; position: absolute; filter: brightness(125%);" src="img/swoopyarrow.jpg">      
                       <div id="profilename" style="margin-bottom: -82px; margin-left: -170px;position: absolute; padding-top: 15px;  font-size:1.5em;font-family:'Oswald'"><span data-bind="text: display_name"></span></div>
                     </div>
                   </div>
@@ -115,10 +115,10 @@
                 <span style="color:rgb(32, 33, 35); font-family:'Oswald'; font-size: 1.6em">Beep Style</span><br>
                 <div style="padding-top: 12px">
                   <select onchange="changebeep(this)">
-                    <option value="/audio/beep.wav">Beep</option>
-                    <option value="/audio/drinkonbrother.wav">Drink On Brother</option>
-                    <option value="/audio/bell.wav">Bell</option>
-                    <option value="/audio/slapbass.wav">Slap Bass</option>
+                    <option value="audio/beep.wav">Beep</option>
+                    <option value="audio/drinkonbrother.wav">Drink On Brother</option>
+                    <option value="audio/bell.wav">Bell</option>
+                    <option value="audio/slapbass.wav">Slap Bass</option>
                   </select>
                 </div>
               </div>
@@ -156,7 +156,7 @@
               <div class="row">
                 <div class="col-lg-4 col-md-4">
                   <!-- Current Song -->
-                  <img src="/img/freq.gif" class="row" style="max-height: 85px">
+                  <img src="img/freq.gif" class="row" style="max-height: 85px">
                   <span id="currentsonginfo" class="row" style="color:rgb(32, 33, 35); font-family:'Oswald'; font-size: 1.6em;">Song - Artist - Album - Year </span>
                 </div>
                 <hr class="visible-xs visible-sm">
@@ -232,8 +232,8 @@
     <script src="js/oauth-manager.js"></script>
 
     <!-- AUDIO -->
-    <audio id="canpop" volume="0.5" src="/audio/canopen.wav" ></audio>
-    <audio id="beep" volume="0.5" src="/audio/beep.wav" ></audio>
+    <audio id="canpop" volume="0.5" src="audio/canopen.wav" ></audio>
+    <audio id="beep" volume="0.5" src="audio/beep.wav" ></audio>
 
     <!-- CUSTOM -->
     <script src="js/main.js"></script>
